@@ -1,4 +1,11 @@
-body {background-color:white;}
-h1{color:gray;}
+body 
+{background-color:white;}
+h1
+{color:gray;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+div{
+float:right;
+}
 
 

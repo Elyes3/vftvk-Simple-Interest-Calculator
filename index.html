@@ -8,18 +8,18 @@
         <table>
         <tr>
             <td>Amount</td>
-            <td><input type="number"  id="principal"></td>
+            <td><input type="text" pattern=[0-9]{20} id="principal"></td>
         </tr>
         <tr>
-            <td>Rate</td>
-            <td><input type="number"  id="rate"></td>
+            <td><center>Interest Rate</center></td>
+            <td><center><input type="range"  id="rate"></center></td>
         </tr>
         <tr>
-            <td>No. of Years</td>
-            <td><input type="number"  id="years"></td>
+            <td><center>No. of Years</center></td>
+            <td><center><input type="number"  id="years"></center></td>
         </tr>
         <tr>
-            <td><button value="Compute Interest" onclick="compute()">Compute</button></td>
+            <td><center><button value="Compute Interest" onclick="compute()">Compute</button></center></td>
          </center>
         
     </body>

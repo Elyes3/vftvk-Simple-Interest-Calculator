@@ -10,5 +10,8 @@ float:right;
 input[type="number"]{
 width:40px;
 }
+p{
+float:left;
+}
 
 

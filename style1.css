@@ -7,5 +7,8 @@ font-family:Verdana, Geneva, Tahoma, sans-serif ;
 div{
 float:right;
 }
+input[type="number"]{
+width:50px;
+}
 
 

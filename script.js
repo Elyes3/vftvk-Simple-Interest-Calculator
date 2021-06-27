@@ -1,6 +1,9 @@
 function compute()
-{
-       p = document.getElementById("principal").value;
+{   numTr=document.getElementsByTagName("tr");
+    if (numTr.length==5){
+    numTr[4].remove();
+    }
+    p = document.getElementById("principal").value;
     r= document.getElementById("rate").value;
     numyears=document.getElementById("years").value;
     d = new Date();
